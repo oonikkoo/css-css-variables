@@ -4,4 +4,17 @@
   margin: 0;
 }
 
-/* Start coding here */
+:root {
+  --secondary-color: cornsilk;
+  --branding-color: #ff7f50;
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: 15px;
+}
+
+h1 {
+  color: var(--branding-color);
+  font-size: 100px;
+}
